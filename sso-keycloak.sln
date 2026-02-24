@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sso-keycloak.Api", "sso-keycloak\sso-keycloak.Api.csproj", "{BA1DB426-B1E5-47B5-9AD7-E17E73B07D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{1759E8AA-B7E1-4AA3-B4AE-2C9EAA3A4164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{00AA259F-477E-4687-B550-C9C2033AB72C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1DB426-B1E5-47B5-9AD7-E17E73B07D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1DB426-B1E5-47B5-9AD7-E17E73B07D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1DB426-B1E5-47B5-9AD7-E17E73B07D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1DB426-B1E5-47B5-9AD7-E17E73B07D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1759E8AA-B7E1-4AA3-B4AE-2C9EAA3A4164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1759E8AA-B7E1-4AA3-B4AE-2C9EAA3A4164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1759E8AA-B7E1-4AA3-B4AE-2C9EAA3A4164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1759E8AA-B7E1-4AA3-B4AE-2C9EAA3A4164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AA259F-477E-4687-B550-C9C2033AB72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AA259F-477E-4687-B550-C9C2033AB72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AA259F-477E-4687-B550-C9C2033AB72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AA259F-477E-4687-B550-C9C2033AB72C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3565FF-714C-4E63-AE83-130ED9EB1303}
+	EndGlobalSection
+EndGlobal
